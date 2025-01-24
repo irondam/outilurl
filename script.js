@@ -21,6 +21,7 @@ let mediumEspaces = [
     ["Espace Bien-être","espace_bien_etre_rc"],
     ["Espace VDLR","espace_vdlr_rc"],
     ["Espace EMI","espace_emi_rc"],
+    ["Espace International","espace_int_rc"],
 ]
 
 let mediumPartners = [
