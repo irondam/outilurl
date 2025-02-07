@@ -44,6 +44,11 @@ let mediumRS = [
     ["Twitter atelier","twitter_atelier"],
 ]
 
+let mediumSitesRC = [
+    ["Quizinière", "quiziniere"],
+    ["CanoTech","canotech"],
+]
+
 for(x=0 ; x < mediumRS.length ; x++) {
     checkBoxesRS.innerHTML += '<div class="form-check">'+
         '<input class="form-check-input" type="checkbox" value="'+mediumRS[x][1]+'" id="checkbox'+mediumRS[x][1]+'">'+
@@ -67,6 +72,15 @@ for(z=0 ; z < mediumEspaces.length ; z++) {
         '<input class="form-check-input" type="checkbox" value="'+mediumEspaces[z][1]+'" id="checkbox'+mediumEspaces[z][1]+'">'+
         '<label class="form-check-label" for="checkbox'+mediumEspaces[z][1]+'">'+
         mediumEspaces[z][0]+
+        '</label>'+
+        '</div>';
+}
+
+for(a=0 ; a < mediumSitesRC.length ; a++) {
+    checkBoxesSitesRC.innerHTML += '<div class="form-check">'+
+        '<input class="form-check-input" type="checkbox" value="'+mediumSitesRC[a][1]+'" id="checkbox'+mediumSitesRC[a][1]+'">'+
+        '<label class="form-check-label" for="checkbox'+mediumSitesRC[a][1]+'">'+
+        mediumSitesRC[a][0]+
         '</label>'+
         '</div>';
 }
