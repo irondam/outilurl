@@ -1,6 +1,7 @@
 let checkBoxesEspaces = document.getElementById("checkboxesEspaces");
 let checkBoxesPartners = document.getElementById("checkboxesPartners");
 let checkBoxesRS = document.getElementById("checkboxesRS");
+let checkBoxesSitesRC = document.getElementById("checkboxesSitesRC");
 
 let mediumEspaces = [
     ["Espace PPME","espace_ppme_rc"],
