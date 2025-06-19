@@ -2,6 +2,15 @@ let checkBoxesEspaces = document.getElementById("checkboxesEspaces");
 let checkBoxesPartners = document.getElementById("checkboxesPartners");
 let checkBoxesRS = document.getElementById("checkboxesRS");
 let checkBoxesSitesRC = document.getElementById("checkboxesSitesRC");
+let checkBoxesNls = document.getElementById("checkboxesNls");
+
+let mediumNls = [
+    ["Newsletter RC national","newsletter_rc"],
+    ["Newsletter nouveaux enseignants","newsletter_ne"],
+    ["Newsletter CanoTech","newsletter_canotech"],
+    ["Newsletter national particuliers","newsletter_part"],
+    ["Newsletter national établissement","newsletter_etab"],
+]
 
 let mediumEspaces = [
     ["Espace PPME","espace_ppme_rc"],
@@ -85,6 +94,15 @@ for(a=0 ; a < mediumSitesRC.length ; a++) {
         '<input class="form-check-input" type="checkbox" value="'+mediumSitesRC[a][1]+'" id="checkbox'+mediumSitesRC[a][1]+'">'+
         '<label class="form-check-label" for="checkbox'+mediumSitesRC[a][1]+'">'+
         mediumSitesRC[a][0]+
+        '</label>'+
+        '</div>';
+}
+
+for(a=0 ; a < mediumNls.length ; a++) {
+    checkBoxesNls.innerHTML += '<div class="form-check">'+
+        '<input class="form-check-input" type="checkbox" value="'+mediumNls[a][1]+'" id="checkbox'+mediumNls[a][1]+'">'+
+        '<label class="form-check-label" for="checkbox'+mediumNls[a][1]+'">'+
+        mediumNls[a][0]+
         '</label>'+
         '</div>';
 }
