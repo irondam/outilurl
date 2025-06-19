@@ -23,7 +23,8 @@ let mediumEspaces = [
     ["Espace VDLR","espace_vdlr_rc"],
     ["Espace EMI","espace_emi_rc"],
     ["Espace International","espace_int_rc"],
-    ["Landing page", "landingpage"]
+    ["Landing page", "landingpage"],
+    ["Actualités", "actualites"]
 ]
 
 let mediumPartners = [
