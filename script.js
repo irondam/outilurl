@@ -24,7 +24,8 @@ let mediumEspaces = [
     ["Espace EMI","espace_emi_rc"],
     ["Espace International","espace_int_rc"],
     ["Landing page", "landingpage"],
-    ["Actualités", "actualites"]
+    ["Actualités", "actualites"],
+    ["Popin", "popin"]
 ]
 
 let mediumPartners = [
@@ -49,6 +50,7 @@ let mediumRS = [
 let mediumSitesRC = [
     ["Quizinière", "quiziniere"],
     ["CanoTech","canotech"],
+    ["Les fondamentaux","les_fondamentaux"],
 ]
 
 for(x=0 ; x < mediumRS.length ; x++) {
