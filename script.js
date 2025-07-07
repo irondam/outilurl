@@ -34,7 +34,8 @@ let mediumEspaces = [
     ["Espace International","espace_int_rc"],
     ["Landing page", "landingpage"],
     ["Actualités", "actualites"],
-    ["Popin", "popin"]
+    ["Popin", "popin"],
+    ["Agenda", "agenda"]
 ]
 
 let mediumPartners = [
@@ -142,7 +143,7 @@ btnSubmit.addEventListener('click',()=> {
     }
 
     for(let j = 0 ; j < medias.length ; j++){
-        results.innerHTML += urlClean+"?mtm_campaign="+nomDeCampagne+"&mtm_source="+nomDeCampagne+"_"+medias[j]+"&mtm_medium="+medias[j]+"<br>";
+        results.innerHTML += urlClean+"?mtm_campaign="+nomDeCampagne+"&mtm_source="+nomDeCampagne+"_"+medias[j]+"&mtm_medium="+medias[j]+"<br><br>";
     }
 }
 )
