@@ -45,7 +45,8 @@ let mediumPartners = [
     ["Mgen","mgen"],
     ["EAFC","eafc"],
     ["INSPE","inspe"],
-    ["Dgesco","dgesco"]
+    ["Dgesco","dgesco"],
+    ["ANAÉ","anae"]
 ]
 
 let mediumRS = [
@@ -155,3 +156,4 @@ function slugify(str) {
     str = str.replace(/\s+/g, '_');
     return str;
 }
+
