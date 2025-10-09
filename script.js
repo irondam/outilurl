@@ -63,6 +63,7 @@ let mediumSitesRC = [
     ["Quizinière", "quiziniere"],
     ["CanoTech","canotech"],
     ["Les fondamentaux","les_fondamentaux"],
+    ["Einspe","esinspe"],
 ]
 
 for(x=0 ; x < mediumRS.length ; x++) {
@@ -157,5 +158,6 @@ function slugify(str) {
     str = str.replace(/\s+/g, '_');
     return str;
 }
+
 
 
