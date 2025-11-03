@@ -10,6 +10,7 @@ let mediumNls = [
     ["Newsletter CanoTech","newsletter_canotech"],
     ["Newsletter national particuliers","newsletter_part"],
     ["Newsletter national établissement","newsletter_etab"],
+    ["Newsletter Les Fondamentaux","newsletter_fondamentaux"],
 ]
 
 let mediumEspaces = [
@@ -158,6 +159,7 @@ function slugify(str) {
     str = str.replace(/\s+/g, '_');
     return str;
 }
+
 
 
 
