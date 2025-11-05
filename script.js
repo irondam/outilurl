@@ -147,16 +147,15 @@ btnSubmit.addEventListener('click',()=> {
     }
 
     for(let j = 0 ; j < medias.length ; j++){
-        if(document.getElementById("piwik").checked {
+        if(document.getElementById("piwik").checked) {
             results.innerHTML += urlClean+"?pk_campaign="+nomDeCampagne+"&pk_source="+nomDeCampagne+"_"+medias[j]+"&pk_medium="+medias[j]+"<br>";
-        } else if(document.getElementById("google").checked {
+        } else if(document.getElementById("google").checked) {
             results.innerHTML += urlClean+"?utm_campaign="+nomDeCampagne+"&utm_source="+nomDeCampagne+"_"+medias[j]+"&utm_medium="+medias[j]+"<br>";
         } else {
             results.innerHTML += urlClean+"?mtm_campaign="+nomDeCampagne+"&mtm_source="+nomDeCampagne+"_"+medias[j]+"&mtm_medium="+medias[j]+"<br>";
         } 
     }
-}
-)
+});
 
 function slugify(str) {
     str = str.replace(/^\s+|\s+$/g, '');
@@ -165,6 +164,7 @@ function slugify(str) {
     str = str.replace(/\s+/g, '_');
     return str;
 }
+
 
 
 
