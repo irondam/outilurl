@@ -65,6 +65,7 @@ let mediumSitesRC = [
     ["CanoTech","canotech"],
     ["Les fondamentaux","les_fondamentaux"],
     ["Einspe","esinspe"],
+    ["Extraclasse","extraclasse"],
 ]
 
 for(x=0 ; x < mediumRS.length ; x++) {
@@ -164,6 +165,7 @@ function slugify(str) {
     str = str.replace(/\s+/g, '_');
     return str;
 }
+
 
 
 
