@@ -147,7 +147,13 @@ btnSubmit.addEventListener('click',()=> {
     }
 
     for(let j = 0 ; j < medias.length ; j++){
-        results.innerHTML += urlClean+"?mtm_campaign="+nomDeCampagne+"&mtm_source="+nomDeCampagne+"_"+medias[j]+"&mtm_medium="+medias[j]+"<br><br>";
+        if(document.getElementById("piwik").checked {
+            results.innerHTML += urlClean+"?pk_campaign="+nomDeCampagne+"&pk_source="+nomDeCampagne+"_"+medias[j]+"&pk_medium="+medias[j]+"<br><br>";
+        } else if(document.getElementById("google").checked {
+            results.innerHTML += urlClean+"?utm_campaign="+nomDeCampagne+"&utm_source="+nomDeCampagne+"_"+medias[j]+"&utm_medium="+medias[j]+"<br><br>";
+        } else {
+            results.innerHTML += urlClean+"?mtm_campaign="+nomDeCampagne+"&mtm_source="+nomDeCampagne+"_"+medias[j]+"&mtm_medium="+medias[j]+"<br><br>";
+        } 
     }
 }
 )
@@ -159,6 +165,7 @@ function slugify(str) {
     str = str.replace(/\s+/g, '_');
     return str;
 }
+
 
 
 
