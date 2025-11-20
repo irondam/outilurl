@@ -70,7 +70,7 @@ let mediumSitesRC = [
 
 for(x=0 ; x < mediumRS.length ; x++) {
     checkBoxesRS.innerHTML += '<div class="form-check">'+
-        '<input class="form-check-input" type="checkbox" value="'+mediumRS[x][1]+'" id="checkbox'+mediumRS[x][1]+'">'+
+        '<input class="form-check-input form-check-medium" type="checkbox" value="'+mediumRS[x][1]+'" id="checkbox'+mediumRS[x][1]+'">'+
         '<label class="form-check-label" for="checkbox'+mediumRS[x][1]+'">'+
         mediumRS[x][0]+
         '</label>'+
@@ -79,7 +79,7 @@ for(x=0 ; x < mediumRS.length ; x++) {
 
 for(y=0 ; y < mediumPartners.length ; y++) {
     checkBoxesPartners.innerHTML += '<div class="form-check">'+
-        '<input class="form-check-input" type="checkbox" value="'+mediumPartners[y][1]+'" id="checkbox'+mediumPartners[y][1]+'">'+
+        '<input class="form-check-input form-check-medium" type="checkbox" value="'+mediumPartners[y][1]+'" id="checkbox'+mediumPartners[y][1]+'">'+
         '<label class="form-check-label" for="checkbox'+mediumPartners[y][1]+'">'+
         mediumPartners[y][0]+
         '</label>'+
@@ -88,7 +88,7 @@ for(y=0 ; y < mediumPartners.length ; y++) {
 
 for(z=0 ; z < mediumEspaces.length ; z++) {
     checkBoxesEspaces.innerHTML += '<div class="form-check">'+
-        '<input class="form-check-input" type="checkbox" value="'+mediumEspaces[z][1]+'" id="checkbox'+mediumEspaces[z][1]+'">'+
+        '<input class="form-check-input form-check-medium" type="checkbox" value="'+mediumEspaces[z][1]+'" id="checkbox'+mediumEspaces[z][1]+'">'+
         '<label class="form-check-label" for="checkbox'+mediumEspaces[z][1]+'">'+
         mediumEspaces[z][0]+
         '</label>'+
@@ -97,7 +97,7 @@ for(z=0 ; z < mediumEspaces.length ; z++) {
 
 for(a=0 ; a < mediumSitesRC.length ; a++) {
     checkBoxesSitesRC.innerHTML += '<div class="form-check">'+
-        '<input class="form-check-input" type="checkbox" value="'+mediumSitesRC[a][1]+'" id="checkbox'+mediumSitesRC[a][1]+'">'+
+        '<input class="form-check-input form-check-medium" type="checkbox" value="'+mediumSitesRC[a][1]+'" id="checkbox'+mediumSitesRC[a][1]+'">'+
         '<label class="form-check-label" for="checkbox'+mediumSitesRC[a][1]+'">'+
         mediumSitesRC[a][0]+
         '</label>'+
@@ -106,7 +106,7 @@ for(a=0 ; a < mediumSitesRC.length ; a++) {
 
 for(a=0 ; a < mediumNls.length ; a++) {
     checkBoxesNls.innerHTML += '<div class="form-check">'+
-        '<input class="form-check-input" type="checkbox" value="'+mediumNls[a][1]+'" id="checkbox'+mediumNls[a][1]+'">'+
+        '<input class="form-check-input form-check-medium" type="checkbox" value="'+mediumNls[a][1]+'" id="checkbox'+mediumNls[a][1]+'">'+
         '<label class="form-check-label" for="checkbox'+mediumNls[a][1]+'">'+
         mediumNls[a][0]+
         '</label>'+
@@ -120,7 +120,7 @@ let inputNomDeCampagne = document.getElementById("inputNomDeCampagne");
 let allCheckboxes = document.getElementById("allCheckboxes");
 
 allCheckboxes.addEventListener('click',()=> {
-    let checkboxes = document.getElementsByClassName("form-check-input");
+    let checkboxes = document.getElementsByClassName("form-check-medium");
     for(let i = 0 ; i < checkboxes.length ; i++){
         if(checkboxes[i].value !== "all"){
             if(checkboxes[i].checked === true) {
@@ -133,7 +133,7 @@ allCheckboxes.addEventListener('click',()=> {
 });
 
 btnSubmit.addEventListener('click',()=> {
-    let checkboxes = document.getElementsByClassName("form-check-input");
+    let checkboxes = document.getElementsByClassName("form-check-medium");
     results.innerHTML = "";
     let nomDeCampagne = slugify(inputNomDeCampagne.value);
 
@@ -165,6 +165,7 @@ function slugify(str) {
     str = str.replace(/\s+/g, '_');
     return str;
 }
+
 
 
 
