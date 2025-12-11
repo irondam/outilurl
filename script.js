@@ -70,6 +70,7 @@ let mediumSitesRC = [
     ["Les fondamentaux","les_fondamentaux"],
     ["Einspe","esinspe"],
     ["Extraclasse","extraclasse"],
+    ["Préroll Extraclasse","preroll_extraclasse"],
 ]
 
 for(x=0 ; x < mediumRS.length ; x++) {
@@ -169,6 +170,7 @@ function slugify(str) {
     str = str.replace(/\s+/g, '_');
     return str;
 }
+
 
 
 
