@@ -11,6 +11,8 @@ let mediumNls = [
     ["Newsletter national particuliers","newsletter_part"],
     ["Newsletter national établissement","newsletter_etab"],
     ["Newsletter Les Fondamentaux","newsletter_fondamentaux"],
+    ["Newsletter DT","newsletter_dt"],
+    ["Campagne mail DT","mail_dt"],
 ]
 
 let mediumEspaces = [
@@ -48,7 +50,9 @@ let mediumPartners = [
     ["INSPE","inspe"],
     ["Dgesco","dgesco"],
     ["ANAÉ","anae"],
-    ["Worldskills","worldskills"]
+    ["Worldskills","worldskills"],
+    ["DSDEN","dsden"],
+    ["Collectivités","collectivites"]
 ]
 
 let mediumRS = [
@@ -170,6 +174,7 @@ function slugify(str) {
     str = str.replace(/\s+/g, '_');
     return str;
 }
+
 
 
 
