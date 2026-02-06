@@ -66,6 +66,7 @@ let mediumRS = [
     ["LinkedIn DT","linkedin_dt"],
     ["LinkedIn DT PACA","linkedin_dt_paca"],
     ["Facebook atelier 13", "facebook_atelier_13"],
+    ["Groupe Facebook podcast EC", "facebook_group_podcast_ec"],
 ]
 
 let mediumSitesRC = [
@@ -174,6 +175,7 @@ function slugify(str) {
     str = str.replace(/\s+/g, '_');
     return str;
 }
+
 
 
 
