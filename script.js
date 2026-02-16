@@ -11,6 +11,7 @@ let mediumNls = [
     ["Newsletter national particuliers","newsletter_part"],
     ["Newsletter national établissement","newsletter_etab"],
     ["Newsletter Les Fondamentaux","newsletter_fondamentaux"],
+    ["Newsletter Extra classe","newsletter_extra_classe"],
     ["Newsletter DT","newsletter_dt"],
     ["Campagne mail DT","mail_dt"],
 ]
@@ -175,6 +176,7 @@ function slugify(str) {
     str = str.replace(/\s+/g, '_');
     return str;
 }
+
 
 
 
