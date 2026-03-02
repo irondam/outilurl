@@ -53,7 +53,8 @@ let mediumPartners = [
     ["ANAÉ","anae"],
     ["Worldskills","worldskills"],
     ["DSDEN","dsden"],
-    ["Collectivités","collectivites"]
+    ["Collectivités","collectivites"],
+    ["Revue des collectivités locales","revue_collectivites_locales"]
 ]
 
 let mediumRS = [
@@ -176,6 +177,7 @@ function slugify(str) {
     str = str.replace(/\s+/g, '_');
     return str;
 }
+
 
 
 
