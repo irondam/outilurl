@@ -39,7 +39,8 @@ let mediumEspaces = [
     ["Landing page", "landingpage"],
     ["Actualités", "actualites"],
     ["Popin", "popin"],
-    ["Agenda", "agenda"]
+    ["Agenda", "agenda"],
+    ["Flyer", "flyer"]
 ]
 
 let mediumPartners = [
