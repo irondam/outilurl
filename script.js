@@ -41,7 +41,11 @@ let mediumEspaces = [
     ["Popin", "popin"],
     ["Agenda", "agenda"],
     ["Flyer", "flyer"],
-    ["Catalogue", "catalogue"]
+    ["Catalogue cités éducatives", "catalogue_cites_educatives"],
+    ["Catalogue collectivités", "catalogue_collectivites"],
+    ["Catalogue élus", "catalogue_elus"],
+    ["Catalogue TER", "catalogue_ter"],
+    ["Catalogue établissements", "catalogue_etablissements"],
 ]
 
 let mediumPartners = [
