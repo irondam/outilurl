@@ -40,7 +40,8 @@ let mediumEspaces = [
     ["Actualités", "actualites"],
     ["Popin", "popin"],
     ["Agenda", "agenda"],
-    ["Flyer", "flyer"]
+    ["Flyer", "flyer"],
+    ["Catalogue", "catalogue"]
 ]
 
 let mediumPartners = [
