@@ -17,7 +17,7 @@ let mediumNls = [
 ]
 
 let mediumEspaces = [
-    ["Espace PPME","espace_ppme_rc"],
+    ["Espace Nouvel enseignant","espace_ne_rc"],
     ["Espace Élémentaire","espace_elementaire_rc"],
     ["Bandeau Home","bandeau_home"],
     ["Espace Collège","espace_college_rc"],
@@ -36,6 +36,8 @@ let mediumEspaces = [
     ["Espace VDLR","espace_vdlr_rc"],
     ["Espace EMI","espace_emi_rc"],
     ["Espace International","espace_int_rc"],
+    ["Espace Collectivités","espace_coll_rc"],
+    ["Espace Etablissements","espace_etab_rc"],
     ["Landing page", "landingpage"],
     ["Actualités", "actualites"],
     ["Popin", "popin"],
