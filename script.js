@@ -77,6 +77,7 @@ let mediumRS = [
     ["LinkedIn DT PACA","linkedin_dt_paca"],
     ["Facebook atelier 13", "facebook_atelier_13"],
     ["Groupe Facebook podcast EC", "facebook_group_podcast_ec"],
+    ["Google Ads", "google_ads"],
 ]
 
 let mediumSitesRC = [
