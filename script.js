@@ -70,6 +70,7 @@ let mediumRS = [
     ["Twitter national","twitter_national"],
     ["Instagram","instagram"],
     ["LinkedIn","linkedin"],
+    ["LinkedIn Ads","linkedin_ads"],
     ["Meta sponso","meta_sponso"],
     ["Twitter atelier","twitter_atelier"],
     ["Facebook atelier", "facebook_atelier"],
