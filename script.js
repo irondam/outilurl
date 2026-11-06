@@ -52,6 +52,7 @@ let mediumEspaces = [
 
 let mediumPartners = [
     ["Café pédagogique", "cafe_pedagogique"],
+    ["VousNousIls", "vousnousils"],
     ["MAIF","maif"],
     ["GMF","gmf"],
     ["Mgen","mgen"],
